@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carnet de Contacts</title>
-    <link rel="stylesheet" href="css/styles.css">    
+    <link rel="stylesheet" href="styles.css">    
 </head>
 <body>
 
@@ -77,6 +77,6 @@
 </div>
 
 </body>
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script src="js/script.js"></script>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script src="script.js"></script>
 </html>

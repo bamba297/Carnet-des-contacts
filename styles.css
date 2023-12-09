@@ -1,0 +1,193 @@
+.bouton{
+    display: block;
+    background-color: green;
+    border-radius: 5px;
+    border: 2px double green;
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    width: 100px;
+    cursor: pointer;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.bouton:hover{
+    background-color: #ffffff;
+    border: 2px solid green;
+    box-shadow: 5px 5px 5px white;
+    color: green;
+    text-align: center;
+    font-size: 15px;
+}
+
+.bouton1{
+    display: block;
+    background-color: red;
+    border-radius: 5px;
+    border: 2px double red;
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    width: 100px;
+    cursor: pointer;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.bouton1:hover{
+    background-color: #ffffff;
+    border: 2px solid red;
+    box-shadow: 5px 5px 5px white;
+    color: red;
+    text-align: center;
+    font-size: 15px;
+}
+
+dialog {
+    background-color: #d61053;
+    color: white;
+    width: 80%;
+    border: 1px solid #d61053;
+    border-radius: 11px;
+    
+}
+
+dialog::backdrop {
+    background-color: grey;
+}
+
+#save-add-contact-btn {
+    display: block;
+    background-color: green;
+    border-radius: 5px;
+    border: 2px double green;
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    width: 100px;
+    cursor: pointer;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+#save-add-contact-btn:hover{
+    background-color: #ffffff;
+    border: 2px solid green;
+    box-shadow: 5px 5px 5px white;
+    color: green;
+    text-align: center;
+    font-size: 15px;
+}
+
+#cancel-add-contact-btn{
+    display: block;
+    background-color: red;
+    border-radius: 5px;
+    border: 2px double red;
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    width: 100px;
+    cursor: pointer;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+#cancel-add-contact-btn:hover{
+    background-color: #ffffff;
+    border: 2px solid red;
+    box-shadow: 5px 5px 5px white;
+    color: red;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+
+
+
+table{
+	
+    margin: 1rem auto;
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    border-collapse: collapse;
+    border: 1px solid
+    
+    }
+            
+        
+    thead{
+    
+    background-color: #d61053;
+    color: white
+    
+    }
+        
+    
+    th,td{padding:8px 0}
+    
+    tbody tr:nth-child(even) {
+        
+    background-color: #ddd
+        
+    }
+        
+    @media only screen and (max-width: 800px) {
+            
+    table, 
+    thead, 
+    tbody, 
+    th, 
+    td, 
+    tr{ 
+        
+    display: block
+        
+    }
+        
+    thead tr { 
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    }
+     
+     
+     
+    td { 
+        
+    position: relative;
+    padding-left: 50%; 
+    white-space: normal;
+    text-align: left
+        
+        }
+     
+    td:before { 
+        
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    width: 45%; 
+    padding-right: 10px; 
+    font-weight: bold;
+    white-space: nowrap;
+    text-align:left;
+    content: attr(data-title)
+        
+        }
+    }
+    
+    
+    
